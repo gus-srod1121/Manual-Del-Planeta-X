@@ -1,0 +1,50 @@
+:root
+{
+    /* LIGHT MODE */
+    --light-text-color: #000000;
+    --light-text-highlight-color: #224477;
+
+    --light-bg-color: #AABBFF;
+    --light-bg-color: #8899DD;
+
+    /* DARK MODE */
+    --dark-text-color: #FFFFFF;
+    --dark-text-highlight-color: #AABBFF;
+
+    --dark-bg-color: #003344;
+    --dark-bg-secondary-color: #334477;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    --text-color: var(--light-text-color);
+    --text-highlight-color: var(--light-text-highlight-color);
+    
+    --bg-color: var(--light-bg-color);
+    --bg-secondary-color: var(--light-bg-secondary-color);
+
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+    font-family:'Courier New', Courier, monospace;
+}
+
+body.dark-mode
+{
+    --text-color: var(--dark-text-color);
+    --text-highlight-color: var(--dark-text-highlight-color);
+    
+    --bg-color: var(--dark-bg-color);
+    --bg-secondary-color: var(--dark-bg-secondary-color)
+}
+
+.highlight
+{
+    color: var(--text-highlight-color);
+}

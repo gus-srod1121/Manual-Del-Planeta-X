@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanetX</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Styles -->
+     <link href="styles/index.style.css" rel="stylesheet">
+     <link href="styles/theme.style.css" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <main>
+        <!-- Turn Overview -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-4xl font-extrabold">TURNOS</h2>
+            <hr>
+            <div>
+                <h2 class="text-2xl font-bold">[1] Toma Una Accion</h2>
+                <h3>> Survey (Sondeo)</h3>
+                <div class="flex flex-col gap-4">
+                    <div class="ml-16">
+                        <p>1, 2, o 3 sectores - 4⏲</p>
+                        <p>4, 5, o 6 sectores - 3⏲</p>
+                        <p>7, 8, o 9 sectores - 2⏲</p>
+                    </div>
+                    <div class="flex flex-row gap-8">
+                        <div class="flex flex-col gap-4">
+                            <h2>> Target (Enfocar)</h2>
+                            <h2>> Research (Investigar)</h2>
+                            <h2>> Locate Planet X (Localizar el Planeta X)</h2>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <p>4⏲</p>
+                            <p>1⏲ (No se puede repetir)</p>
+                            <p>5⏲</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <img class="my-4">
+
+        <!-- Teorias -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-4xl font-extrabold">TEORIAS</h2>
+            <hr>
+            <div>
+                <h2 class="text-xl font-bold">[1A] Todos los jugadores eligen hasta 2 Teorias para enviar</h2>
+                <h2 class="text-xl font-bold">[1B] Coloca las teorias boca abajo</h2>
+                <p class="ml-16">> Se colocan en orden de turno (atras para adelante)</p>
+                <h2 class="text-xl font-bold">[1C] Avanza TODAS las teorias un espacio</h2>
+                <h2 class="text-xl font-bold">[2] Revisa si las teorias son correctas (si es necesario)</h2>
+                <p class="ml-16">> Si una teoria llega a la 4ta casilla, debe ser revisada por 'Revision por Pares'</p>
+                <p class="ml-16">> 1⏲ de penalidad por teoria incorrecta</p>
+            </div>
+        </section>
+        
+        <img class="my-4">
+
+        <!-- RESUMEN -->
+        <h1 class="text-6xl font-bold">RESUMEN</h1>
+        <hr class="mb-2">
+
+        <!-- Cometas -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Cometas</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p>Los cometas solo pueden encontrarse en sectores particulares</p>
+                    <p class="text-sm text-gray-400">> Sectores senalados en tu hoja de apuntes</p>
+                </div>
+                <h1 class="text-6xl font-bold">2</h1>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- ASTEROIDES -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Asteroides</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p>Cada asteroide debe ser adjacente a minimo 1 otro asteroide, en parejas de 2 o un grupo de 4</p>
+                    <p class="text-sm text-gray-400">> Configuraciones posibles en tus instrucciones rapidas</p>
+                </div>
+                <h1 class="text-6xl font-bold">4</h1>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- PLANETAS ENANOS -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Planetas Enanos</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p>NINGUN Planeta Enano es adjacente al Planeta X</p>
+                    <p>Los 4 Planetas Enanos esta en una banda de 6 sectores</p>
+                    <p class="text-sm text-gray-400">> Configuraciones posibles en tus instrucciones rapidas (6 configuraciones)</p>
+                </div>
+                <h1 class="text-6xl font-bold">4</h1>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- PLANETAS ENANOS -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Sectores Completamente Vacios</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p class="text-sm text-gray-400">> Recuerda que el Planeta X aparece 'vacio' en surveys y targets (sondeos y enfoques)</p>
+                </div>
+                <h1 class="text-6xl font-bold">5</h1>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- NUBES DE GAS -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Nubes de Gas</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p>Cada Nube de Gas es adjacente a minimo 1 Sector Completamente Vacio</p>
+                    <p class="text-sm text-gray-400">> Recuerda que el Planeta X aparece 'vacio' en surveys y targets (encuestas y objetivos)</p>
+                </div>
+                <h1 class="text-6xl font-bold">2</h1>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- PLANETA X -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Planeta X</h2>
+            <hr>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p>El Planeta X NO es adjacente a un Planeta Enano.</p>
+                    <p class="text-sm text-gray-400">> El Planeta X aparenta ser un sector vacio en surveys y targets (sondeos y enfoques)</p>
+                </div>
+                <h1 class="text-6xl font-bold">1</h1>
+            </div>
+        </section>
+        
+        <img class="my-4">
+
+        <!-- RESUMEN -->
+        <h1 class="text-6xl font-bold">TERMINAR EL JUEGO</h1>
+        <hr class="mb-2">
+        
+        <!-- LOCALIZAR PLANETA X -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Localizar el Planeta X</h2>
+            <hr>
+            <div>
+                <p>Para localizar el Planeta X, debes saber en que sector se encuentra ADEMAS de que hay en los dos sectores adjacentes.</p>
+                <p class="text-sm text-gray-400">> Avisa que estas adivinando, pero NO digas lo que adivinas</p>
+            </div>
+        </section>
+
+        <img class="my-2">
+        
+        <!-- FIN DE JUEGO Y PUNTOS -->
+        <section class="border-2 p-2 rounded-md">
+            <h2 class="highlight text-3xl font-extrabold">Puntaje</h2>
+            <hr>
+            <div>
+                <p>El primero en localizar el Planeta X avanza 5⏲ y el fin del juego comienza.</p>
+                <p>Cada jugador detras de ese jugador, basado en que tantos ⏲ detras se encuentre, podra hacer UNA de las dos siguientes acciones:</p>
+                <p class="text-sm ml-8">> Intentar localizar el Planeta X tambien, y recibir 2-10 puntos</p>
+                <p class="text-sm ml-8">> Subir 1 o 2 teorias</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
