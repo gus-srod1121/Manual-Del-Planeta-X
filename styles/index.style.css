@@ -1,7 +1,10 @@
 body
 {
-    padding: 4vw;
-
-    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     margin: auto;
+    
+    padding: 4vw;
+    max-width: 1280px;
 }
